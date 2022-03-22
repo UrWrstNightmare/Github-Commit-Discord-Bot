@@ -1,0 +1,24 @@
+{
+  "name": "github-commit-discord-bot",
+  "version": "1.0.0",
+  "description": "A commit checker bot for discord servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UrWrstNightmare/Github-Commit-Discord-Bot.git"
+  },
+  "keywords": [
+    "Github",
+    "Discord",
+    "Bot"
+  ],
+  "author": "Jiho Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UrWrstNightmare/Github-Commit-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/UrWrstNightmare/Github-Commit-Discord-Bot#readme"
+}
