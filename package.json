@@ -4,7 +4,9 @@
   "description": "A commit checker bot for discord servers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app",
+    "build": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,16 @@
   "bugs": {
     "url": "https://github.com/UrWrstNightmare/Github-Commit-Discord-Bot/issues"
   },
-  "homepage": "https://github.com/UrWrstNightmare/Github-Commit-Discord-Bot#readme"
+  "homepage": "https://github.com/UrWrstNightmare/Github-Commit-Discord-Bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "axios": "^0.26.1",
+    "discord-api-types": "^0.29.0",
+    "discord.js": "^13.6.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
