@@ -1,3 +1,4 @@
 const TOKEN = "YOUR_TOKEN_HERE";
+const VERSION = "VERSION_STRING_HERE";
 
-export { TOKEN };
+export { TOKEN, VERSION };

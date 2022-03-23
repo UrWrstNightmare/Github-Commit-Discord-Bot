@@ -1,6 +1,6 @@
 import { Client, Intents } from "discord.js";
-import * as config from './config/config';
-import * as commands from './commands';
+import * as config from './config/config.js';
+import {fMsgHandler} from "./events/message.js";
 
 const { DIRECT_MESSAGES, GUILD_MESSAGES, GUILDS } = Intents.FLAGS;
 const client = new Client({
@@ -14,4 +14,4 @@ client.once('ready', () => {
 
 client.login( config.TOKEN );
 
-export { client };
+client.on('messageCreate', fMsgHandler );
