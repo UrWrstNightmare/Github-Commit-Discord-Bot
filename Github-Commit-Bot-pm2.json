@@ -3,7 +3,7 @@
     {
       "name": "Github-Commit-Bot",
       "script": "npm",
-      "args" : "build"
+      "args" : "run build"
     }
   ]
 }
