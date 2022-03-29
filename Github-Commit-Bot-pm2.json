@@ -3,7 +3,10 @@
     {
       "name": "Github-Commit-Bot",
       "script": "npm",
-      "args" : "run build"
+      "args" : "run build",
+      "env": {
+        "TZ": "Asia/Seoul"
+      }
     }
   ]
 }
