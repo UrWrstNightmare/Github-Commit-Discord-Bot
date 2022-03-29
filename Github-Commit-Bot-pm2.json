@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "Github-Commit-Bot",
+      "script": "npm",
+      "args" : "build"
+    }
+  ]
+}
