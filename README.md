@@ -8,3 +8,6 @@ Built by following https://discordjs.guide/creating-your-bot
 2. Run ```make build``` (node ^16.14.2 is required)
 3. To view status, ```pm2 ls```
 4. To view logs, ```pm2 logs Github-Commit-Bot```
+
+
+
