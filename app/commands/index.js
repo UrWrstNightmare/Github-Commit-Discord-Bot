@@ -3,6 +3,7 @@ import fHelpAction from "./actions/helpAction.js";
 import fCheckCommitAction from "./actions/checkCommitAction.js";
 import fCheckEventAction from "./actions/checkEventAction.js";
 import fPrintInfoAction from "./actions/printInfoAction.js";
+import fDopamineAction from "./actions/domaineAction.js";
 
 const PLACEHOLDER_ACTION = async (msg) => {
     await msg.reply('PLACEHOLDER');
@@ -19,6 +20,7 @@ const COMMANDS = [
     { title: 'Unregister User', text: 'unregister', desc: '', example: '', required_arg: 2, action: PLACEHOLDER_ACTION },
     { title: 'List Users', text: 'ls-user', desc: '', example: '', required_arg: 1, action: PLACEHOLDER_ACTION },
     { title: 'Configure Cron Job', text: 'cron', desc: '', example: '/cron ${ TIME } or /cron stop', required_arg: 2, action: fCronAction },
+    { title: 'Print Moral Boosting String', text: 'dopamine', desc: '', example: '/dopamine [ exam | commit ]', required_arg: 2, action: fDopamineAction },
 ]
 
 export { PREFIX, COMMANDS };
