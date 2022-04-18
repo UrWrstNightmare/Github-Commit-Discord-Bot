@@ -4,6 +4,7 @@ import fCheckCommitAction from "./actions/checkCommitAction.js";
 import fCheckEventAction from "./actions/checkEventAction.js";
 import fPrintInfoAction from "./actions/printInfoAction.js";
 import fDopamineAction from "./actions/domaineAction.js";
+import fGachaAction from "./actions/gachaAction.js";
 
 const PLACEHOLDER_ACTION = async (msg) => {
     await msg.reply('PLACEHOLDER');
@@ -21,6 +22,7 @@ const COMMANDS = [
     { title: 'List Users', text: 'ls-user', desc: '', example: '', required_arg: 1, action: PLACEHOLDER_ACTION },
     { title: 'Configure Cron Job', text: 'cron', desc: '', example: '/cron ${ TIME } or /cron stop', required_arg: 2, action: fCronAction },
     { title: 'Print Moral Boosting String', text: 'dopamine', desc: '', example: '/dopamine [ exam | commit ]', required_arg: 2, action: fDopamineAction },
+    { title: 'Gacha!', text: 'gacha', desc: '', example: '/gacha', required_arg: 1, action: fGachaAction },
 ]
 
 export { PREFIX, COMMANDS };
